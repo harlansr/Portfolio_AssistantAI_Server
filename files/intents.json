@@ -1,0 +1,352 @@
+{
+    "intents": {
+        "main": [
+            {
+                "tag": "greeting",
+                "patterns": [
+                    "ping",
+                    "test",
+                    "tes",
+                    "tess",
+                    "tesss",
+                    "hallo",
+                    "hai",
+                    "hi",
+                    "halo",
+                    "halo harlan"
+                ],
+                "responses": {
+                    "id":[
+                        "Selamat [time_day_part], saya adalah asisten AI yang di buat dan di training oleh **Harlan** tanpa AI pihak ketiga\n\nAnda bisa menanyakan tentang **Harlan** kepada saya"
+                    ],
+                    "en":[
+                        "Good [time_day_part], I am an AI assistant created and trained by **Harlan** without any third-party AI\n\nYou can ask me about **Harlan**"
+                    ]
+                }
+            },
+            {
+                "tag": "name_full",
+                "patterns": [
+                    "nama panjang harlan",
+                    "full name"
+                ],
+                "responses": {
+                    "id":[
+                        "Nama panjang Harlan adalah **Harlan Setia Rahendra**"
+                    ],
+                    "en":[
+                        "Harlan's full name is **Harlan Setia Rahendra**"
+                    ]
+                }
+            },
+            {
+                "tag": "info_myself",
+                "patterns": [
+                    "tell about yourself",
+                    "tell about yourself",
+                    "tell about self",
+                    "siapa",
+                    "tentang diri",
+                    "who",
+                    "who's",
+                    "whos"
+                ],
+                "responses": {
+                    "id":[
+                        "[info_myself]"
+                    ],
+                    "en":[
+                        "[info_myself]"
+                    ]
+                }
+            },
+            {
+                "tag": "info_address",
+                "patterns": [
+                    "domisili",
+                    "dimana alamat",
+                    "dimana tinggal",
+                    "address",
+                    "dimana sekarang"
+                ],
+                "responses": {
+                    "id":["Sekarang **Harlan** berdomisili di **Jakarta**"],
+                    "en":["Currently, **Harlan** lives in **Jakarta**"]
+                }
+            },
+            {
+                "tag": "info_born_place",
+                "patterns": [
+                    "tempat lahir",
+                    "asal",
+                    "sekolah",
+                    "kecil",
+                    "dimana asal",
+                    "dimana berasal"
+                ],
+                "responses": {
+                    "id":["**Harlan** lahir dan besar di ``Sumatera Barat``"],
+                    "en":["**Harlan** born and raised in ``West sumatera``"]
+                }
+            },
+            {
+                "tag": "info_hobby",
+                "patterns": [
+                    "apa hobby",
+                    "suka di lakukan",
+                    "what's your hobby"
+                ],
+                "responses": {
+                    "id":[
+                        "Terdengar aneh, tapi **Harlan** hobby nya adalah ``ngoding``, dia bisa duduk seharian di depan laptop untuk mengoding dari bangun tidur di pagi hari sampai tidur lagi di malam hari"
+                    ],
+                    "en":[
+                        "It might sound unusual, but **Harlan's** hobby is ``coding``. He can spend the whole day in front of a laptop coding from morning until night."
+                    ]
+                }
+            },
+            {
+                "tag": "info_food",
+                "patterns": [
+                    "makanan kesukaan",
+                    "makanan favorit",
+                    "food"
+                ],
+                "responses": {
+                    "id":[
+                        "**Harlan** suka banyak makanan, tapi sekarang sedang suka ``Dimsum``"
+                    ],
+                    "en":[
+                        "**Harlan** likes a lot of food, but right now he likes ``Dimsum``."
+                    ]
+                }
+            },
+            {
+                "tag": "info_color",
+                "patterns": [
+                    "warna kesukaan",
+                    "warna favorit",
+                    "color"
+                ],
+                "responses": {
+                    "id":[
+                        "**Harlan** suka banyak warna, tapi yang paling suka sekarang adalah ``Biru``"
+                    ],
+                    "en":[
+                        "**Harlan** likes many colors, but the most one right now is ``Blue``"
+                    ]
+                }
+            },
+            {
+                "tag": "info_contact",
+                "patterns": [
+                    "I want to hire you",
+                    "Give me your contact",
+                    "Berikan kontak",
+                    "Saya ingin mempekerjakan mu",
+                    "hubungi",
+                    "dihubungi",
+                    "di hubungi",
+                    "kontak",
+                    "bagaimana menghubungi"
+                ],
+                "responses": {
+                    "id":[
+                        "Untuk itu saya bisa memberikan kontak dari **Harlan**,ini adalah kontak yang bisa di hubungi:\n\n- **LinkedIn**: \n- https://www.linkedin.com/in/harlansr/\n- **Email**: \n- harlan.setia@gmail.com"
+                    ],
+                    "en":[
+                        "For that, I can provide **Harlan's** contact information. Here is how you can reach him:\n\n- **LinkedIn**: \n- https://www.linkedin.com/in/harlansr/\n- **Email**: \n- harlan.setia@gmail.com"
+                    ]
+                }
+            },
+            {
+                "tag": "info_university",
+                "patterns": [
+                    "kuliah",
+                    "school",
+                    "lulusan mana",
+                    "which graduate",
+                    "studying",
+                    "lecture",
+                    "dimana kuliah",
+                    "apakah sudah lulus",
+                    "latarbelakang sekolah",
+                    "latarbelakang pendidikan",
+                    "educational background"
+                ],
+                "responses": {
+                    "id":[
+                        "**Harlan** lulusan ``S1`` dari ``Universitas Andalas`` dengan jurusan ``Ilmu Ekonomi``, walaupun begitu, **Harlan** sudah menghendel banyak projek di bidang software semenjak kuliah"
+                    ],
+                    "en":[
+                        "**Harlan** holds a bachelor's degree in `Economics` from `Andalas University`. Despite this, **Harlan** has handled numerous software projects since his college years."
+                    ]
+                }
+            },
+            {
+                "tag": "info_job",
+                "patterns": [
+                    "job",
+                    "kerja",
+                    "working",
+                    "pengalaman kerja",
+                    "works experience",
+                    "working experience",
+                    "dimana kerja sebelumnya?",
+                    "where works befor?",
+                    "apa pengalaman kerja"
+                ],
+                "responses": {
+                    "id":[
+                        "ini adalah informasi pengalaman kerja dari **Harlan**:\n\n[ref_job_experience]"
+                    ],
+                    "en":[
+                        "Here is **Harlan's** work experience:\n\n[ref_job_experience]"
+                    ]
+                }
+            },
+            {
+                "tag": "info_study",
+                "patterns": [
+                    "list sekolah",
+                    "daftar pendidikan",
+                    "pengalaman pendidikan",
+                    "pendidikan"
+                ],
+                "responses": {
+                    "id":[
+                        "ini adalah informasi pengalaman sekolah dari **Harlan**:\n\n[ref_study_experience]"
+                    ],
+                    "en":[
+                        "Here is **Harlan's** study experience:\n\n[ref_study_experience]"
+                    ]
+                }
+            },
+            {
+                "tag": "info_job_curren",
+                "patterns": [
+                    "current job",
+                    "kerja sekarang",
+                    "krja skarang",
+                    "currently working",
+                    "dimana kerja?",
+                    "where work?",
+                    "where working?"
+                ],
+                "responses": {
+                    "id":[
+                        "Sekarang **Harlan** kerja di **PT.Inti Talenta Teknologi** sebagai **Technical Officer** sejak Januari 2024"
+                    ],
+                    "en":[
+                        "**Harlan** is currently working as a **Technical Officer** at **PT.Inti Talenta Teknologi** in Jakarta, Indonesia since January 2024"
+                    ]
+                }
+            },
+            {
+                "tag": "info_project",
+                "patterns": [
+                    "pengalaman project",
+                    "apa project yg pernah di lakukan",
+                    "project experience"
+                ],
+                "responses": {
+                    "id":[
+                        "ada banyak projek yang **Harlan** selesaikan, untuk melihat detail nya bisa di lihat di https://harlansr.github.io/project"
+                    ],
+                    "en":[
+                        "There are many projects that **Harlan** has completed. For more details, you can visit https://harlansr.github.io/project"
+                    ]
+                }
+            },
+            {
+                "tag": "info_code_lang",
+                "patterns": [
+                    "apa bahasa pemograman yang kuasai",
+                    "bahasa koding apa yang di kuasai",
+                    "apa bahasa yang di pahami",
+                    "apakah bisa menggunakan",
+                    "bisa"
+                ],
+                "responses": {
+                    "id":[
+                        "**Harlan** menguasai beberapa bahasa pemograman:\n\n[ref_code_lang]"
+                    ],
+                    "en":[
+                        "**Harlan** can us code laguage:\n\n[ref_code_lang]"
+                    ]
+                }
+            },
+            
+
+            {
+                "tag": "can_indo",
+                "patterns": [
+                    "Bisakaha berbahasa indonesia",
+                    "bisa bahasa indo",
+                    "bhsa indo"
+                ],
+                "responses": {
+                    "id":[
+                        "Tentu saja, anda bisa bertanya dalam bahasa indonesia, ada pertanyaan tentang **Harlan**? kamu bisa langsung tanyakan"
+                    ],
+                    "en":[
+                        "Tentu saja, anda bisa bertanya dalam bahasa indonesia, ada pertanyaan tentang **Harlan**? kamu bisa langsung tanyakan"
+                    ]
+                }
+            },
+
+
+            {
+                "tag": "info_private",
+                "patterns": [
+                    "kapan lahir",
+                    "tanggal lahir",
+                    "kapan ulang tahun",
+                    "siapa orang tua",
+                    "dimana alamat lengkap",
+                    "nomor ktp",
+                    "nomor kk",
+                    "nomor kartu keluarga",
+                    "birthday",
+                    "berapa nomor telpon",
+                    "hbd",
+                    "siapa pacar",
+                    "siapa istri",
+                    "apakah sudah menikah",
+                    "kapan menikah",
+                    "apakah punya pacar",
+                    "berapa berat",
+                    "berapa tinggi",
+                    "nama orang tua",
+                    "minta nomor hp",
+                    "kapan harlan lulus"
+                ],
+                "responses": {
+                    "id":[
+                        "Maaf, saya tidak bisa membagi informasi terlalu personal, anda bisa tanyakan langsung ke **Harlan**, tapi saya bisa membagi fun fact tentang **Harlan** \n\n[info_funfact]"
+                    ],
+                    "en":[
+                        "Sorry, I can't share overly personal information, you can ask to **Harlan**, but I can share some fun facts about **Harlan** \n\n[info_funfact]"
+                    ]
+                }
+            }
+        ]
+        
+    },
+    "extra":{
+        "info_funfact":{
+            "id":[
+                "Harlan sudah belajar ngoding sejak SMP",
+                "Dulu **Harlan** pernah bekerja untuk pemerintah dan membuat website untuk mengelola perpajakan kota",
+                "Saat kuliah **Harlan** pernah masuk koran karena menciptakan sebuah aplikasi mobile untuk kmapus nya, bisa di lihat di https://issuu.com/haluan/docs/hln300117/11",
+                "**Harlan** bisa duduk seharian di depan laptop untuk mengoding dari bangun tidur di pagi hari sampai tidur lagi di malam hari"
+            ],
+            "en":[
+                "Harlan has been coding since junior high school.",
+                "**Harlan** once worked for the government and created a website to manage city taxation.",
+                "While in college, **Harlan** was featured in a newspaper for developing a mobile application for his campus. You can see it at https://issuu.com/haluan/docs/hln300117/11",
+                "**Harlan** can spend the whole day coding in front of a laptop from morning to night."
+            ]
+        }
+    }
+}
