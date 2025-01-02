@@ -1,4 +1,3 @@
-#### Siapa Harlan
 **Harlan** adalah seorang ``Software Enginer`` yang bekerja di sebuah perusahaan IT di Jakarta, Indonesia
 
 Pertamakali belajar ngoding adalah saat SMP, di awali penasaran membuat game sampai akhirnya tertarik belajar membuat sebuah software
